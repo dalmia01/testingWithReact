@@ -1,7 +1,10 @@
+import { Header } from "./components/header/header";
+import "./app.scss";
+
 function App() {
     return (
         <div className="App">
-            <header className="App-header">Hello Enzyme - Testing</header>
+            <Header />
         </div>
     );
 }
